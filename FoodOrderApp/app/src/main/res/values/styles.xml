@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    
+    <style name="EdittextStyle">
+        <item name="android:layout_marginLeft">@dimen/space_20</item>
+        <item name="android:layout_marginRight">@dimen/space_20</item>
+        <item name="android:background">@drawable/round_rect_edittext</item>
+        <item name="android:padding">@dimen/space_10</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+    </style>
+</resources>
