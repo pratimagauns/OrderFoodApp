@@ -1,10 +1,8 @@
-package com.example.foodorderapp.ui.viewmodel
+package com.pratima.foodorderapp.ui.viewmodel
 
-import android.content.Intent
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.foodorderapp.repositories.UserRepository
-import com.example.foodorderapp.ui.activities.OTPVerificationActivity
+import com.pratima.foodorderapp.repositories.UserRepository
 import javax.inject.Inject
 
 class LoginViewModel  @Inject constructor(private val repository: UserRepository) : ViewModel() {

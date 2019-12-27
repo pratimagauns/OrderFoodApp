@@ -1,8 +1,8 @@
-package com.persistent.cardamageapplication.di.module
+package com.pratima.foodorderapp.di.module
 
 
-import com.example.foodorderapp.BuildConfig
-import com.example.foodorderapp.network.ApiService
+import com.pratima.foodorderapp.BuildConfig
+import com.pratima.foodorderapp.network.ApiService
 import dagger.Module
 import dagger.Provides
 import okhttp3.OkHttpClient

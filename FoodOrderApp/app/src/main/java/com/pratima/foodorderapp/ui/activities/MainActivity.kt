@@ -1,8 +1,8 @@
-package com.example.foodorderapp.ui.activities
+package com.pratima.foodorderapp.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.foodorderapp.R
+import com.pratima.foodorderapp.R
 
 class MainActivity : AppCompatActivity() {
 

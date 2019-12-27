@@ -1,8 +1,8 @@
-package com.example.foodorderapp
+package com.pratima.foodorderapp
 
 import android.app.Activity
 import android.app.Application
-import com.persistent.cardamageapplication.di.component.DaggerAppComponent
+import com.pratima.foodorderapp.di.component.DaggerAppComponent
 import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.HasActivityInjector

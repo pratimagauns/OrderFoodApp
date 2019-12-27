@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1069221030293",
+    "firebase_url": "https://foodorderapp-e48d3.firebaseio.com",
+    "project_id": "foodorderapp-e48d3",
+    "storage_bucket": "foodorderapp-e48d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069221030293:android:c39253b8822d937f61ee9c",
+        "android_client_info": {
+          "package_name": "com.pratima.foodorderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1069221030293-8t34b7mme5dulc9a9unauov6ub5nu2eh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4wKuNoM0fm4cTD03in0-Q_laky_sL6jY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1069221030293-8t34b7mme5dulc9a9unauov6ub5nu2eh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

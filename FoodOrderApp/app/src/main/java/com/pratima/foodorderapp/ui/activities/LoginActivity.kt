@@ -1,4 +1,4 @@
-package com.example.foodorderapp.ui.activities
+package com.pratima.foodorderapp.ui.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,11 +6,12 @@ import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
-import com.example.foodorderapp.R
-import com.example.foodorderapp.databinding.ActivityLoginBinding
-import com.example.foodorderapp.ui.viewmodel.LoginViewModel
-import com.example.foodorderapp.ui.viewmodel.ViewModelFactory
+import com.pratima.foodorderapp.R
+import com.pratima.foodorderapp.databinding.ActivityLoginBinding
+import com.pratima.foodorderapp.ui.viewmodel.LoginViewModel
+import com.pratima.foodorderapp.ui.viewmodel.ViewModelFactory
 import dagger.android.AndroidInjection
+import kotlinx.android.synthetic.main.activity_login.*
 import javax.inject.Inject
 
 class LoginActivity : AppCompatActivity() {
@@ -33,6 +34,15 @@ class LoginActivity : AppCompatActivity() {
             startActivity(intent)
         })
 
+        login_signup.setOnClickListener {
+            val intent = Intent(this, SignUpActivity::class.java)
+            startActivity(intent)
+        }
+
+        login_forgot_password.setOnClickListener {
+            val intent = Intent(this, ForgotPasswordActivity::class.java)
+            startActivity(intent)
+        }
         binding.viewModel = viewModel
     }
 }

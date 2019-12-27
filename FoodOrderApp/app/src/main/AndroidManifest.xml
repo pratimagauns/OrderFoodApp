@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.foodorderapp">
+    package="com.pratima.foodorderapp">
 
     <application
         android:name=".FoodOrderApplication"
@@ -10,7 +10,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.activities.OTPVerificationActivity"></activity>
+        <activity android:name=".ui.activities.ForgotPasswordActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ui.activities.SignUpActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.activities.OTPVerificationActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustResize" />
         <activity android:name=".ui.activities.MainActivity" />
         <activity
             android:name=".ui.activities.SplashScreenActivity"

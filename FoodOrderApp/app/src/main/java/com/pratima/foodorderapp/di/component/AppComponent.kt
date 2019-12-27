@@ -1,9 +1,9 @@
-package com.persistent.cardamageapplication.di.component
+package com.pratima.foodorderapp.di.component
 
 import android.app.Application
-import com.example.foodorderapp.FoodOrderApplication
-import com.persistent.cardamageapplication.di.module.ActivityModule
-import com.persistent.cardamageapplication.di.module.AppModule
+import com.pratima.foodorderapp.FoodOrderApplication
+import com.pratima.foodorderapp.di.module.ActivityModule
+import com.pratima.foodorderapp.di.module.AppModule
 import dagger.BindsInstance
 import dagger.Component
 import dagger.android.AndroidInjectionModule

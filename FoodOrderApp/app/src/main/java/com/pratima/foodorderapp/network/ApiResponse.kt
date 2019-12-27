@@ -1,4 +1,4 @@
-package com.example.foodorderapp.network
+package com.pratima.foodorderapp.network
 
 class ApiResponse() {
 

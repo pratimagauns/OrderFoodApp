@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FoodOrderApp</string>
+    <string name="app_name">Food Order</string>
     <string name="title_activity_login">Sign in</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
@@ -19,4 +19,21 @@
     <string name="login">Login</string>
     <string name="otp_verify_your_phone_number">Phone verification</string>
     <string name="otp_enter_here">Enter your OTP here</string>
+    <string name="orp_dindt_receive_code">Dind\'t you receive any code?</string>
+    <string name="otp_resend_code">Resend a new code</string>
+    <string name="signup_title">Create an account</string>
+    <string name="signup_terms_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="signup_disclaimer">By signing up you agree to the</string>
+    <string name="signup_confirm_password">Confirm password</string>
+    <string name="signup_password">Password</string>
+    <string name="signup_mobile_number">Mobile number</string>
+    <string name="signup_email">Email</string>
+    <string name="signup_username">Username</string>
+    <string name="forgot_password_title">Forgot password</string>
+    <string name="forgot_password_subtitle">Please enter your email address. You will receive a link to reset your password via email.</string>
+    <string name="forgot_send">Send</string>
+    <string name="sign_up">Sign up</string>
+    <string name="menu_my_order">My Order</string>
+    <string name="menu_explore">Explore</string>
+    <string name="menu_my_profile">My Profile</string>
 </resources>

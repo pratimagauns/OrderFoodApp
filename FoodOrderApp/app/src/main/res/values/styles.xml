@@ -11,12 +11,39 @@
     <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
     </style>
-    
+
+    <style name="Formtitle">
+        <item name="android:layout_marginTop">@dimen/space_80</item>
+        <item name="android:text">@string/login_title</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/text_big</item>
+        <item name="android:textStyle">bold</item>
+    </style>
     <style name="EdittextStyle">
         <item name="android:layout_marginLeft">@dimen/space_20</item>
         <item name="android:layout_marginRight">@dimen/space_20</item>
-        <item name="android:background">@drawable/round_rect_edittext</item>
+        <item name="android:background">@drawable/round_rect_gray</item>
         <item name="android:padding">@dimen/space_10</item>
         <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <style name="EdittextStyle.OTP">
+        <item name="android:padding">@dimen/space_10</item>
+        <item name="android:textSize">@dimen/text_large</item>
+        <item name="android:layout_marginLeft">@dimen/space_16</item>
+        <item name="android:layout_marginRight">@dimen/space_16</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:layout_width">@dimen/space_40</item>
+        <item name="android:layout_height">@dimen/space_40</item>
+        <item name="android:layout_marginTop">@dimen/space_40</item>
+        <item name="android:background">@drawable/otp_background_selector</item>
+        <item name="android:textColor">@drawable/otp_text_selector</item>
+        <item name="android:cursorVisible">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:inputType">number</item>
+        <item name="android:clickable">false</item>
+        <item name="android:longClickable">false</item>
     </style>
 </resources>

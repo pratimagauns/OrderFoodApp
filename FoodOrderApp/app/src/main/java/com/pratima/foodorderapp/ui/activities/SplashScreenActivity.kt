@@ -1,10 +1,10 @@
-package com.example.foodorderapp.ui.activities
+package com.pratima.foodorderapp.ui.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
-import com.example.foodorderapp.R
+import com.pratima.foodorderapp.R
 
 class SplashScreenActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

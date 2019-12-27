@@ -1,4 +1,4 @@
-package com.example.foodorderapp.network
+package com.pratima.foodorderapp.network
 
 import io.reactivex.Observable
 import okhttp3.RequestBody
